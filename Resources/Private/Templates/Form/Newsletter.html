@@ -1,0 +1,65 @@
+<html
+    xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers"
+    xmlns:core="http://typo3.org/ns/TYPO3/CMS/Core/ViewHelpers"
+    xmlns:be="http://typo3.org/ns/TYPO3/CMS/Backend/ViewHelpers"
+    data-namespace-typo3-fluid="true">
+
+<f:layout name="Backend" />
+
+<f:section name="Buttons">
+	<be:moduleLayout.button.linkButton
+		icon="actions-add"
+		title="{f:translate(id: 'LLL:EXT:backend/Resources/Private/Language/locallang_layout.xlf:newRecordGeneral')}"
+		link="{be:uri.newRecord(table: 'be_users')}"
+	/>
+</f:section>
+
+<f:section name="Content">
+    <f:if condition="{config.instance} && {config.clientId} && {config.clientSecret}">
+        <f:then>
+            <h1><f:translate key="module.heading" /></h1>
+            <div style="margin-bottom: 20px;">
+                <f:link.action class="btn btn-default js-fetch-forms btn-disabled" action="addNewForms"><f:translate key="module.fetch.button" /></f:link.action>
+            </div>
+            
+            <f:if condition="{forms}">
+                <f:then>
+                    <div class="table-fit">
+                        <table id="typo3-backend-user-list-compare" class="table table-hover">
+                            <thead>
+                                <tr>
+                                    <th><f:translate key="module.table.id" /></th>
+                                    <th><f:translate key="module.table.randomId" /></th>
+                                    <th><f:translate key="module.table.title" /></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <f:for each="{forms}" as="form" iteration="i">
+                                    <tr>
+                                        <td class="col-icon nowrap">
+                                            {form.id}
+                                        </td>
+                                        <td class="col-icon nowrap">
+                                            {form.randomId}
+                                        </td>
+                                        <td class="col-title">
+                                            {form.title}
+                                        </td>
+                                    </tr>
+                                </f:for>
+                            </tbody>
+                        </table>
+                    </div>
+                </f:then>
+                <f:else>
+                    <p><f:translate key="module.no.forms" /></p>
+                </f:else>
+            </f:if>
+        </f:then>
+        <f:else>
+            <p><f:translate key="module.config.missing" /></p>
+        </f:else>
+    </f:if>
+</f:section>
+
+</html>

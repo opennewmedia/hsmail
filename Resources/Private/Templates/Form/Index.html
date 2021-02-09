@@ -1,0 +1,9 @@
+<f:if condition="{mode}">
+    <f:then>
+        <iframe src="https://tools.hotelsuite.de/{instance}/mail/widget/?iframe={form.randomId}" width="100%" height="400" frameborder="0"></iframe>
+        <script id="mailWidgetIframeResize">window.addEventListener("message", function(e) {if (e.origin !== "https://tools.hotelsuite.de") {return;}try {var data = JSON.parse(e.data);} catch (ex) {return;}var iframe = document.getElementById("mailWidgetIframeResize").previousElementSibling;if (iframe) {iframe.style.height = data.message + "px";}  });</script>
+    </f:then>
+    <f:else>
+        <script async src="https://tools.hotelsuite.de/{instance}/mail/widget/?js={form.randomId}"></script>
+    </f:else>
+</f:if>

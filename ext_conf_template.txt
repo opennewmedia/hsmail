@@ -1,0 +1,8 @@
+# cat=basic; type=string; label= Instance name e.g. m-demo
+instance =
+
+# cat=basic; type=string; label= API USER (client_id)
+clientId =
+
+# cat=basic; type=string; label= API PASSWORD (client_secret)
+clientSecret =

@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2021-02-03T13:45:58Z" product-name="hsmail">
+		<header/>
+		<body>
+            <trans-unit id="module.heading">
+				<source>Newsletter Forms</source>
+			</trans-unit>
+            <trans-unit id="module.fetch.button">
+				<source>Fetch new forms</source>
+			</trans-unit>
+            <trans-unit id="module.table.id">
+				<source>Id</source>
+			</trans-unit>
+            <trans-unit id="module.table.randomId">
+				<source>Random Id</source>
+			</trans-unit>
+            <trans-unit id="module.table.title">
+				<source>Title</source>
+			</trans-unit>
+            <trans-unit id="module.no.forms">
+				<source>No Forms</source>
+			</trans-unit>
+            <trans-unit id="module.config.missing">
+				<source>Configuration is missing.</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

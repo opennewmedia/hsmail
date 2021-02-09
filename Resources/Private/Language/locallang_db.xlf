@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="EXT:hsmail/Resources/Private/Language/locallang_db" date="2021-02-03T10:24:05Z" product-name="hsmail">
+		<header/>
+		<body>
+			<trans-unit id="tx_hsmail_form.name" resname="tx_hsmail_form.name">
+				<source>Hotelsuite Newsletter Form</source>
+			</trans-unit>
+			<trans-unit id="tx_hsmail_form.description" resname="tx_hsmail_form.description">
+				<source>Hotelsuite Newsletter form</source>
+			</trans-unit>
+			<trans-unit id="tx_hsmail_domain_model_formconfig" resname="tx_hsmail_domain_model_formconfig">
+				<source>Formconfig</source>
+			</trans-unit>
+			<trans-unit id="tx_hsmail_domain_model_formconfig.id" resname="tx_hsmail_domain_model_formconfig.id">
+				<source>Id</source>
+			</trans-unit>
+			<trans-unit id="tx_hsmail_domain_model_formconfig.random_id" resname="tx_hsmail_domain_model_formconfig.random_id">
+				<source>Random Id</source>
+			</trans-unit>
+			<trans-unit id="tx_hsmail_domain_model_formconfig.title" resname="tx_hsmail_domain_model_formconfig.title">
+				<source>Title</source>
+			</trans-unit>
+			<trans-unit id="tx_hsmail_form">
+				<source>Hotelsuite Form</source>
+			</trans-unit>
+			<trans-unit id="tx_hsmail_form_mode">
+				<source>Render Mode</source>
+			</trans-unit>
+			<trans-unit id="tx_hsmail_form_mode.0">
+				<source>Standard</source>
+			</trans-unit>
+			<trans-unit id="tx_hsmail_form_mode.1">
+				<source>iFrame</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>
