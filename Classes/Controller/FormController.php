@@ -50,7 +50,7 @@ class FormController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionController
 	 * @var \ONM\Hsmail\Domain\Repository\FormconfigRepository
      * @Extbase\Inject
 	 */
-    protected $formconfigRepository;
+    public $formconfigRepository;
 
         /**
      * initializeAction

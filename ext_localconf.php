@@ -5,18 +5,30 @@ call_user_func(
     function()
     {
 
-        \TYPO3\CMS\Extbase\Utility\ExtensionUtility::configurePlugin(
-            'ONM.Hsmail',
-            'Form',
-            [
-                'Form' => 'index'
-            ],
-            // non-cacheable actions
-            [
-                
-            ],
-            \TYPO3\CMS\Extbase\Utility\ExtensionUtility::PLUGIN_TYPE_CONTENT_ELEMENT
-        );
+        if(TYPO3\CMS\Core\Utility\VersionNumberUtility::getNumericTypo3Version() < 10) {
+            \TYPO3\CMS\Extbase\Utility\ExtensionUtility::configurePlugin(
+                'ONM.Hsmail',
+                'Form',
+                ['Form' => 'index'],
+                // non-cacheable actions
+                [
+                    
+                ],
+                \TYPO3\CMS\Extbase\Utility\ExtensionUtility::PLUGIN_TYPE_CONTENT_ELEMENT
+            );
+        } else {
+            \TYPO3\CMS\Extbase\Utility\ExtensionUtility::configurePlugin(
+                'Hsmail',
+                'Form',
+                [\ONM\Hsmail\Controller\FormController::class => 'index'],
+                // non-cacheable actions
+                [
+                    
+                ],
+                \TYPO3\CMS\Extbase\Utility\ExtensionUtility::PLUGIN_TYPE_CONTENT_ELEMENT
+            );
+        }
+        
 
         // wizards
         \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addPageTSConfig(
