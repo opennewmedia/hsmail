@@ -124,7 +124,7 @@ class FormController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionController
                 $numberOfNewObjects++;
             }
         }
-        $this->addFlashMessage("$numberOfNewObjects new objects fetched and saved.");
+        $this->addFlashMessage($numberOfNewObjects . ' ' . \TYPO3\CMS\Extbase\Utility\LocalizationUtility::translate('module.saved.notice', 'hsmail'));
         $this->redirect('newsletter');
     }
     
