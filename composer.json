@@ -2,6 +2,7 @@
     "name": "onm/hsmail",
     "type": "typo3-cms-extension",
     "description": "",
+    "version": "3.0.0",
     "authors": [
         {
             "name": "Usman Ahmad",
