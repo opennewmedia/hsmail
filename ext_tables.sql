@@ -3,7 +3,7 @@
 #
 CREATE TABLE tx_hsmail_config
 (
-	id varchar(255) DEFAULT '' NOT NULL,
+	id int(11) NOT NULL auto_increment,
 	config varchar(255) DEFAULT '' NOT NULL,
 	value varchar(255) DEFAULT '' NOT NULL,
 	PRIMARY KEY (id)
