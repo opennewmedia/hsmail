@@ -14,8 +14,7 @@ CREATE TABLE tx_hsmail_config
 #
 CREATE TABLE tt_content
 (
-	tx_hsmail_form int(11) DEFAULT 0 NOT NULL,
-	tx_hsmail_form_mode int(11) DEFAULT 0 NOT NULL
+	tx_hsmail_form int(11) DEFAULT 0 NOT NULL
 );
 
 #

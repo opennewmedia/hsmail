@@ -73,7 +73,6 @@ class FormController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionController
     public function indexAction()
     {
         $this->view->assign('form', $this->formconfigRepository->findByUid($this->cObj->data['tx_hsmail_form']));
-        $this->view->assign('mode', $this->cObj->data['tx_hsmail_form_mode']);
         $extensionConfiguration = GeneralUtility::makeInstance(ExtensionConfiguration::class)->get('hsmail');
         $this->view->assign('instance', $extensionConfiguration['instance']);
     }

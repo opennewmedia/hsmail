@@ -19,20 +19,6 @@ call_user_func(function () {
                 'foreign_table' => 'tx_hsmail_domain_model_formconfig',
             ],
         ],
-        'tx_hsmail_form_mode' => [
-            'exclude' => 0,
-            'label' => 'LLL:EXT:hsmail/Resources/Private/Language/locallang_db.xlf:tx_hsmail_form_mode',
-            'config' => [
-                'type' => 'select',
-                'renderType' => 'selectSingle',
-                'default' => '0',
-                'items' => [
-                    ['LLL:EXT:hsmail/Resources/Private/Language/locallang_db.xlf:tx_hsmail_form_mode', '--div--'],
-                    ['LLL:EXT:hsmail/Resources/Private/Language/locallang_db.xlf:tx_hsmail_form_mode.0', '0'],
-                    ['LLL:EXT:hsmail/Resources/Private/Language/locallang_db.xlf:tx_hsmail_form_mode.1', '1'],
-                ]
-            ]
-        ]
     ];
 
     \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addTCAcolumns(
@@ -52,7 +38,7 @@ call_user_func(function () {
         'showitem' => '
     --palette--;' . $frontendLanguageFilePrefix . 'palette.general;general,
     --palette--;' . $frontendLanguageFilePrefix . 'palette.header;header,
-    tx_hsmail_form,tx_hsmail_form_mode,
+    tx_hsmail_form,
     --div--;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:tabs.appearance,--palette--;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:palette.frames;frames,--palette--;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:palette.appearanceLinks;appearanceLinks,
     --div--;LLL:EXT:core/Resources/Private/Language/Form/locallang_tabs.xlf:language,--palette--;;language,
     --div--;' . $frontendLanguageFilePrefix . 'tabs.access,
