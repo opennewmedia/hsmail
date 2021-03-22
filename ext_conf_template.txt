@@ -1,4 +1,4 @@
-# cat=basic; type=string; label= Instance name e.g. m-demo
+# cat=basic; type=string; label= Instance name e.g. m-YOURINSTANCENAME
 instance =
 
 # cat=basic; type=string; label= API USER (client_id)
