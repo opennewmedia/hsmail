@@ -2,7 +2,7 @@
     "name": "onm/hsmail",
     "type": "typo3-cms-extension",
     "description": "Hotelsuite Newsletter Form (hsmail) ermöglicht es Ihnen, Formulare aus der Hotelsuite zu holen und das Newsletter-Formular im Frontend anzuzeigen.",
-    "version": "3.0.3",
+    "version": "3.1.0",
     "authors": [
         {
             "name": "Usman Ahmad",
