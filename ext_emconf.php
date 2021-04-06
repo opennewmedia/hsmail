@@ -12,7 +12,7 @@
 
 $EM_CONF[$_EXTKEY] = [
     'title' => 'Hsmail',
-    'description' => '',
+    'description' => 'Hotelsuite Newsletter Form (hsmail) ermöglicht es Ihnen, Formulare aus der Hotelsuite zu holen und das Newsletter-Formular im Frontend anzuzeigen.',
     'category' => 'plugin',
     'author' => 'Usman Ahmad',
     'author_email' => 'ua@onm.de',
