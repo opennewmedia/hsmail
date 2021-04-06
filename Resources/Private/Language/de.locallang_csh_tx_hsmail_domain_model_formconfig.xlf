@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="EXT:hsmail/Resources/Private/Language/locallang_csh" date="2021-02-03T16:44:27Z" product-name="hsmail" target-language="de">
+		<header/>
+		<body>
+			<trans-unit id="id.description" resname="id.description">
+				<source>id</source>
+			</trans-unit>
+			<trans-unit id="random_id.description" resname="random_id.description">
+				<source>randomId</source>
+			</trans-unit>
+			<trans-unit id="title.description" resname="title.description">
+				<source>title</source>
+				<target>titel</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

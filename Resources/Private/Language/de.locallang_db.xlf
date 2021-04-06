@@ -1,37 +1,46 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <xliff version="1.0">
-	<file source-language="en" datatype="plaintext" original="EXT:hsmail/Resources/Private/Language/locallang_db" date="2021-02-03T10:24:05Z" product-name="hsmail" target-language="en">
+	<file source-language="en" datatype="plaintext" original="EXT:hsmail/Resources/Private/Language/locallang_db" date="2021-02-03T10:24:05Z" product-name="hsmail" target-language="de">
 		<header/>
 		<body>
 			<trans-unit id="tx_hsmail_form.name" resname="tx_hsmail_form.name">
 				<source>Hotelsuite Newsletter Form</source>
+				<target>Hotelsuite Newsletter Formular</target>
 			</trans-unit>
 			<trans-unit id="tx_hsmail_form.description" resname="tx_hsmail_form.description">
 				<source>Hotelsuite Newsletter form</source>
+				<target>Hotelsuite Newsletter Formular</target>
 			</trans-unit>
 			<trans-unit id="tx_hsmail_domain_model_formconfig" resname="tx_hsmail_domain_model_formconfig">
 				<source>Formconfig</source>
+				<target>Formconfig</target>
 			</trans-unit>
 			<trans-unit id="tx_hsmail_domain_model_formconfig.id" resname="tx_hsmail_domain_model_formconfig.id">
 				<source>Id</source>
 			</trans-unit>
 			<trans-unit id="tx_hsmail_domain_model_formconfig.random_id" resname="tx_hsmail_domain_model_formconfig.random_id">
 				<source>Random Id</source>
+				<target>Zufällige Id</target>
 			</trans-unit>
 			<trans-unit id="tx_hsmail_domain_model_formconfig.title" resname="tx_hsmail_domain_model_formconfig.title">
 				<source>Title</source>
+				<target>Titel</target>
 			</trans-unit>
 			<trans-unit id="tx_hsmail_form">
 				<source>Hotelsuite Form</source>
+				<target>Hotelsuite Formular</target>
 			</trans-unit>
 			<trans-unit id="tx_hsmail_form_mode">
 				<source>Render Mode</source>
+				<target>Rendermodus</target>
 			</trans-unit>
 			<trans-unit id="tx_hsmail_form_mode.0">
 				<source>Standard</source>
+				<target>Standard</target>
 			</trans-unit>
 			<trans-unit id="tx_hsmail_form_mode.1">
 				<source>iFrame</source>
+				<target>iFrame</target>
 			</trans-unit>
 		</body>
 	</file>

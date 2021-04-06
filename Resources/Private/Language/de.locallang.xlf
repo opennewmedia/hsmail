@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2021-02-03T13:45:58Z" product-name="hsmail" target-language="de">
+		<header/>
+		<body>
+            <trans-unit id="module.heading">
+				<source>Newsletter Forms</source>
+				<target>Newsletter Formulare</target>
+			</trans-unit>
+            <trans-unit id="module.fetch.button">
+				<source>Fetch new forms</source>
+				<target>Neue Formulare abholen</target>
+			</trans-unit>
+            <trans-unit id="module.table.id">
+				<source>Id</source>
+			</trans-unit>
+            <trans-unit id="module.table.randomId">
+				<source>Random Id</source>
+				<target>Zufällige Id</target>
+			</trans-unit>
+            <trans-unit id="module.table.title">
+				<source>Title</source>
+				<target>Titel</target>
+			</trans-unit>
+            <trans-unit id="module.no.forms">
+				<source>No Forms</source>
+				<target>Keine Formulare</target>
+			</trans-unit>
+            <trans-unit id="module.config.missing">
+				<source>Configuration is missing.</source>
+				<target>Die Konfiguration fehlt.</target>
+			</trans-unit>
+            <trans-unit id="module.saved.notice">
+				<source>new objects fetched and saved.</source>
+				<target>neue Objekte geholt und gespeichert.</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>
