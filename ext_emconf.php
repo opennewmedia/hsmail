@@ -11,11 +11,11 @@
  ***************************************************************/
 
 $EM_CONF[$_EXTKEY] = [
-    'title' => 'Hsmail',
-    'description' => 'Hotelsuite Newsletter Form (hsmail) ermöglicht es Ihnen, Formulare aus der Hotelsuite zu holen und das Newsletter-Formular im Frontend anzuzeigen.',
+    'title' => 'hotelsuite MAIL',
+    'description' => 'hotelsuite MAIL (hs MAIL) enables you to load (registration) forms from the hotelsuite MAIL e-mail marketing system (https://www.hotelsuite.de) and to display them in the frontend of your website. - Get in touch with us: Open New Media GmbH | Digital communication agency | Tel .: +49 261 30380-80 | E-Mail: info@onm.de | Web: https://www.onm.de | Hotel solutions: https://www.hotelsuite.de',
     'category' => 'plugin',
-    'author' => 'Usman Ahmad',
-    'author_email' => 'ua@onm.de',
+    'author' => 'Usman Ahmad, Tobias Gräber',
+    'author_email' => 'ua@onm.de, tg@onm.de',
     'state' => 'alpha',
     'uploadfolder' => 0,
     'createDirs' => '',
